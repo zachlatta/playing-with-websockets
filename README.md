@@ -1,4 +1,4 @@
-# Just playing around with websockets
+# Move along now, just me playing around with websockets
 
 ## Usage
 
