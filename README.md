@@ -4,7 +4,7 @@
 
 1. Run the server with:
 
-    $ go run server/main.go
+        $ go run server/main.go
 
 2. Open up `client/index.html` in your web browser of choice.
 3. Interact with the server and watch the changes happen on the client.
