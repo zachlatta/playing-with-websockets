@@ -1,5 +1,16 @@
+var socket = new WebSocket('ws://localhost:4040');
 var canvas = document.getElementById('canvas');
 var circle, ctx;
+
+socket.onopen = function () {
+  console.log('wow');
+}
+
+socket.onmessage = function (msg) {
+  coords = msg.data.split(',');
+  circle.x = coords[0];
+  circle.y = coords[1];
+}
 
 if (canvas.getContext) {
   var ctx = canvas.getContext('2d');
