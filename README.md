@@ -1,4 +1,4 @@
-# Move along now, it's just me playing around with websockets
+# Move along now, it's just me playing around with websockets ![Analytics](https://ga-beacon.appspot.com/UA-34529482-6/playing-with-websockets/readme?pixel)
 
 ## Usage
 
